@@ -1,0 +1,60 @@
+<h1>{{title}}</h1>
+
+<div class="formulario">
+    <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label mt-4">Fecha de Inicio</label>
+        <input type="text" class="form-control" id="diaI" aria-describedby="emailHelp" placeholder="Día">
+        <select class="form-select" id="mesI">
+            <option selected disabled value="">Seleccione su mes</option>
+            <option value="January">Enero</option>
+            <option value="February">Febrero</option>
+            <option value="March">Marzo</option>
+            <option value="April">Abril</option>
+            <option value="May">Mayo</option>
+            <option value="June">Junio</option>
+            <option value="July">Julio</option>
+            <option value="August">Agosto</option>
+            <option value="September">Septiembre</option>
+            <option value="October">Octubre</option>
+            <option value="November">Noviembre</option>
+            <option value="December">Diciembre</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label mt-4">Fecha de Término</label>
+        <input type="text" class="form-control" id="diaT" aria-describedby="emailHelp" placeholder="Día">
+        <select class="form-select" id="mesT">
+            <option selected disabled value="">Seleccione su mes</option>
+            <option value="January">Enero</option>
+            <option value="February">Febrero</option>
+            <option value="March">Marzo</option>
+            <option value="April">Abril</option>
+            <option value="May">Mayo</option>
+            <option value="June">Junio</option>
+            <option value="July">Julio</option>
+            <option value="August">Agosto</option>
+            <option value="September">Septiembre</option>
+            <option value="October">Octubre</option>
+            <option value="November">Noviembre</option>
+            <option value="December">Diciembre</option>
+        </select>
+    </div>
+
+    <br><br>
+
+    <button type="button" class="btn btn-secondary" id="btnTable">Hacer Tabla</button>
+</div>
+
+<br><br>
+
+<table class="table table-bordered tablita">
+    <thead>
+        <tr id="tablaMeses">
+        </tr>
+    </thead>
+    <thead>
+        <tr id="tablaDias">
+        </tr>
+    </thead>
+</table>
